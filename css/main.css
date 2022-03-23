@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(245, 255, 237, 0.986);
+}
+
+
+/* NAV BAR */
+.topnav {
+    overflow: hidden;
+    display: flex;
+    background-image: url(/img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(29, 36, 98);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color: #ffffff;
+    color: white;
+}
+
+/*SEARCH BAR */
+.searchBar {
+    float: right;
+    margin-right: 2em;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    font-size: 1.5em;
+    word-spacing: 0.2em;
+    color: rgb(29, 36, 98);
+    background-image: url(/img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+
+
+}
+
+
+.footer-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-bar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.footer-bar a.active {
+    background-color: #ffffff;
+    color: white;
+}
+
+
+/* NEXT AND PREVIOUS*/
+.next {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    background-color: rgb(29, 36, 98);
+    text-decoration: none;
+    border-radius: 1em;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 5%;
+}
+
+
+/* HOMEPAGE */
+.title-hp {
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(29, 36, 98);
+    padding: 10%;
+}
+
+.text-hp {
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(29, 36, 98);
+    padding: 5%;
+}
+
+.survey-button {
+    background-color: rgb(29, 36, 98);
+    text-align: center;
+    border-radius: 1em;
+    padding: 2.5%;
+    margin: 5%;
+}
+
+.survey-button-text {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* INDEX */
+.title {
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(29, 36, 98);
+    padding: 0.9em;
+}
+
+.form-id {
+    align-content: left;
+
+}
+
+.text-id {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(29, 36, 98);
+    padding: 5%;
+}
+
+
+/*RESULT*/
+
+.text-rs {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(29, 36, 98);
+    padding: 5%;
+}
+
+/*RANGE SILVER*/
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+
+/* 50/50 */
+
+#r-s {
+    font-size: 0.7em;
+
+}
+
+/*INPUT FIELDS*/
+input#number-text.form-control {
+    padding: 1px 2px;
+}
+
+
+/*UTILS FORM*/
+.title-lr {
+    font-size: 3em;
+    text-align: center;
+}
+
+.images {
+    text-align: center;
+    white-space: pre-line;
+}
+
+/*WARNING NOTIS*/
+.warning{
+    font-size: 0.8em;
+    color: red;
+}
